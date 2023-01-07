@@ -1,0 +1,40 @@
+<html>   
+<!--it is hypertext markup language-->
+<!-- this is the syntax for comment-->
+
+<h1> POST METHOD EXAMPLE</h1>  
+
+<!--Heading tag use for displaying Headers, there are 6 heading tags in html starting from h1 ,h2,h3,h4,h5,h6-->
+
+<h3> POST METHOD EXAMPLE</h3>
+
+
+
+<form action="submit.php" method="post">
+
+<!--this will create the form where user can enter data-->
+
+	<input type="text" placeholder="Enter Your User Name">
+
+	<!--input type="text,radio,checkbox,password....--->
+	<!--placeholder is use to show case hint to the user-->
+
+	<input type="password" placeholder="Enter Your Password">
+
+	<input type="submit" value="Login">
+
+<a href="http://www.google.com/">Connect to Google</a>
+
+<!--anchor tag is used to create links-->
+
+<br>
+<br>
+
+<!--br tag used to break the row-->
+
+<a href="https://www.facebook.com/">Connect to FACEBOOK</a>
+
+
+</form>
+
+</html>

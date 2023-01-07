@@ -1,0 +1,89 @@
+
+STEP:1 
+------------------
+DOWNLOAD A SERVER
+------------------
+
+Download Apche tomcat 9.0 from the below link:
+https://tomcat.apache.org/download-90.cgi
+------------------------------------------------------------------
+
+STEP:2
+------------------
+CONFIGURATION OF SERVER
+------------------
+
+> PREPARE NEW WORKSPACE TO CONFIGURE THE SERVER
+> goto> files>new >others>server
+
+> choose your server(apache tomcat)
+> click next
+> give the correct path of server and click on next and finish
+> now you can see Created server in Your Server Tab in Eclips
+> you can right click on and start the server
+
+NOTE: if server is started you will see the message like: Server is started and Synchronised
+-----------------------------------------------------------------
+
+STEP:3 
+----------------------------
+CREATING DYNAMIC WEBPROJECT
+----------------------------
+
+1. create a new dynamic wen project
+2. give the project name
+3. you can select runtime environment (tomcat v 9.0)
+4. while creating a project one checkbox will be displayed to you for creating web.xml file check it
+	---->generate web.xml deployment descriptor file
+5. create a project 
+
+6. goto>src>main>webapp
+
+	Rightclick on it > new >HTML File> give the name as 'index.html' save it
+
+7. index.html
+-------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Hello World</h1>
+<h2>Hello World</h2>
+<h3>Hello World</h3>
+<h4>Hello World</h4>
+<h5>Hello World</h5>
+<h6>Hello World</h6>
+
+</body>
+</html>
+
+---------------------
+save it
+
+
+8. right click on project > run on server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

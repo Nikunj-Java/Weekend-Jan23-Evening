@@ -1,0 +1,88 @@
+1. Create Database
+--------------------------------
+> create database ecommerce3;
+
+2. Use Database
+--------------------------------
+>use ecommerce3;
+
+3. create table:
+--------------------------------
+> create table product (id bigint primary key auto_increment,name varchar(100),price decimal(10,2),date_added timestamp  default now());
+
+4. verify the table created or not?
+---------------------------------
+>describe product;
+
+5. Let's Insert Some Records in the table
+
+> insert into product (name,price) value ('HP Laptops ABC',12000);
+
+> insert into product (name,price) value ('LENOVO Laptop',25000);
+
+> insert into product (name,price) value ('ACER Laptop',78000);
+
+> insert into product (name,price) value ('DELL Laptop',35000);
+
+
+5. Let's Retrive the Data
+------------------------------------
+
+> select * from product;
+
+
+6. Let's Filter some data
+-------------------------------------
+
+> select * from product where id=3;
+
+
+
+7. UPDATE
+------------------------------------------------
+
+> update product set name='XYZ 123' where id=3;
+
+
+8. DELETE
+------------------------------------------------
+
+> delete from product where id=3;
+
+
+9. DROP
+------------------------------------------------
+
+if you want to remove entire table 
+
+> drop table product;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

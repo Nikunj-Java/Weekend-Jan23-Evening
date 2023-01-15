@@ -1,0 +1,9 @@
+1. Create simple java project
+
+2. Add mysql-connector 8.0.28 .jar file to
+
+project>rightclick>buildpath>configure build path>libraries>classpath>add external jar>choose mysql connector jar file>apply>apply and close
+
+
+3. create java class with package  name as attached here
+

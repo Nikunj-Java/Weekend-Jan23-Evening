@@ -42,6 +42,11 @@ out.print("Result is : "+c);
 <br>
 <%= new Date() %>
 
+<br>
+<h2>Implicit Objects</h2>
+
+<a href="implicit.jsp">Click Here For Implicit Object</a>
+
 
 </body>
 </html>
